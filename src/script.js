@@ -185,6 +185,11 @@ const tick = () =>
         sphereGeometry.setAttribute('aTreble', new THREE.BufferAttribute(randoms,1))
     }
     
+    // rotation 
+    sphere.rotation.x +=0.0003
+    sphere.rotation.y +=0.0002
+    sphere.rotation.z +=0.0008
+
     // Update controls
     controls.update()
 
